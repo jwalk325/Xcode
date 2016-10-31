@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2363E3B31DC7F7D100BA24C0 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2363E3B21DC7F7D100BA24C0 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2363E3B71DC7F7D100BA24C0 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2363E3B61DC7F7D100BA24C0 /* Stickers.xcstickers */; };
+		2363E3B81DC7F7D100BA24C0 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2363E3B61DC7F7D100BA24C0 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2363E3B41DC7F7D100BA24C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2363E3A81DC7F7D100BA24C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2363E3B11DC7F7D100BA24C0;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2363E3BE1DC7F7D100BA24C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2363E3B31DC7F7D100BA24C0 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2363E3AE1DC7F7D100BA24C0 /* BrownMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2363E3B21DC7F7D100BA24C0 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2363E3B61DC7F7D100BA24C0 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2363E3A71DC7F7D100BA24C0 = {
+			isa = PBXGroup;
+			children = (
+				2363E3B61DC7F7D100BA24C0 /* Stickers.xcstickers */,
+				2363E3AF1DC7F7D100BA24C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2363E3AF1DC7F7D100BA24C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2363E3AE1DC7F7D100BA24C0 /* BrownMan.app */,
+				2363E3B21DC7F7D100BA24C0 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2363E3AD1DC7F7D100BA24C0 /* BrownMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363E3BF1DC7F7D100BA24C0 /* Build configuration list for PBXNativeTarget "BrownMan" */;
+			buildPhases = (
+				2363E3AC1DC7F7D100BA24C0 /* Resources */,
+				2363E3BE1DC7F7D100BA24C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2363E3B51DC7F7D100BA24C0 /* PBXTargetDependency */,
+			);
+			name = BrownMan;
+			productName = BrownMan;
+			productReference = 2363E3AE1DC7F7D100BA24C0 /* BrownMan.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		2363E3B11DC7F7D100BA24C0 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363E3BB1DC7F7D100BA24C0 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				2363E3B01DC7F7D100BA24C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 2363E3B21DC7F7D100BA24C0 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2363E3A81DC7F7D100BA24C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = everybitgaming;
+				TargetAttributes = {
+					2363E3AD1DC7F7D100BA24C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PZCMV4PQF;
+						ProvisioningStyle = Automatic;
+					};
+					2363E3B11DC7F7D100BA24C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PZCMV4PQF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2363E3AB1DC7F7D100BA24C0 /* Build configuration list for PBXProject "BrownMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2363E3A71DC7F7D100BA24C0;
+			productRefGroup = 2363E3AF1DC7F7D100BA24C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2363E3AD1DC7F7D100BA24C0 /* BrownMan */,
+				2363E3B11DC7F7D100BA24C0 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2363E3AC1DC7F7D100BA24C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363E3B81DC7F7D100BA24C0 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2363E3B01DC7F7D100BA24C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363E3B71DC7F7D100BA24C0 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2363E3B51DC7F7D100BA24C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2363E3B11DC7F7D100BA24C0 /* StickerPackExtension */;
+			targetProxy = 2363E3B41DC7F7D100BA24C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2363E3B91DC7F7D100BA24C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2363E3BA1DC7F7D100BA24C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2363E3BC1DC7F7D100BA24C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9PZCMV4PQF;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everybitgaming.BrownMan.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2363E3BD1DC7F7D100BA24C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9PZCMV4PQF;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everybitgaming.BrownMan.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2363E3C01DC7F7D100BA24C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9PZCMV4PQF;
+				INFOPLIST_FILE = BrownMan/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everybitgaming.BrownMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2363E3C11DC7F7D100BA24C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9PZCMV4PQF;
+				INFOPLIST_FILE = BrownMan/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everybitgaming.BrownMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2363E3AB1DC7F7D100BA24C0 /* Build configuration list for PBXProject "BrownMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363E3B91DC7F7D100BA24C0 /* Debug */,
+				2363E3BA1DC7F7D100BA24C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2363E3BB1DC7F7D100BA24C0 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363E3BC1DC7F7D100BA24C0 /* Debug */,
+				2363E3BD1DC7F7D100BA24C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2363E3BF1DC7F7D100BA24C0 /* Build configuration list for PBXNativeTarget "BrownMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363E3C01DC7F7D100BA24C0 /* Debug */,
+				2363E3C11DC7F7D100BA24C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2363E3A81DC7F7D100BA24C0 /* Project object */;
+}
