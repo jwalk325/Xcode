@@ -1,9 +1,161 @@
 {
+  "stickers" : [
+    {
+      "filename" : "brownBITS.sticker"
+    },
+    {
+      "filename" : "brownBLAZE.sticker"
+    },
+    {
+      "filename" : "brownCHAIR.sticker"
+    },
+    {
+      "filename" : "brownCHARLIE.sticker"
+    },
+    {
+      "filename" : "brownCHILLAX.sticker"
+    },
+    {
+      "filename" : "brownCHOKE.sticker"
+    },
+    {
+      "filename" : "brownCRINGE.sticker"
+    },
+    {
+      "filename" : "brownCRY.sticker"
+    },
+    {
+      "filename" : "brownDANCE.sticker"
+    },
+    {
+      "filename" : "brownFAIL.sticker"
+    },
+    {
+      "filename" : "brownFEELS.sticker"
+    },
+    {
+      "filename" : "brownFIRST.sticker"
+    },
+    {
+      "filename" : "brownFLAG.sticker"
+    },
+    {
+      "filename" : "brownGARBO.sticker"
+    },
+    {
+      "filename" : "brownGG.sticker"
+    },
+    {
+      "filename" : "brownGNOME.sticker"
+    },
+    {
+      "filename" : "brownHEART.sticker"
+    },
+    {
+      "filename" : "brownHEY.sticker"
+    },
+    {
+      "filename" : "brownHYPE.sticker"
+    },
+    {
+      "filename" : "brownJOKES.sticker"
+    },
+    {
+      "filename" : "brownKISS.sticker"
+    },
+    {
+      "filename" : "brownKOBE.sticker"
+    },
+    {
+      "filename" : "brownLEAH.sticker"
+    },
+    {
+      "filename" : "brownLEWD.sticker"
+    },
+    {
+      "filename" : "brownLUL.sticker"
+    },
+    {
+      "filename" : "brownMALTA.sticker"
+    },
+    {
+      "filename" : "brownMAN.sticker"
+    },
+    {
+      "filename" : "brownMEME.sticker"
+    },
+    {
+      "filename" : "brownNOM.sticker"
+    },
+    {
+      "filename" : "brownPBS.sticker"
+    },
+    {
+      "filename" : "brownPRIDE.sticker"
+    },
+    {
+      "filename" : "brownRAGE.sticker"
+    },
+    {
+      "filename" : "brownRAYD.sticker"
+    },
+    {
+      "filename" : "brownRAYGASM.sticker"
+    },
+    {
+      "filename" : "brownREKT.sticker"
+    },
+    {
+      "filename" : "brownRIP.sticker"
+    },
+    {
+      "filename" : "brownROSE.sticker"
+    },
+    {
+      "filename" : "brownSALUTE.sticker"
+    },
+    {
+      "filename" : "brownSCARED.sticker"
+    },
+    {
+      "filename" : "brownSELLOUT.sticker"
+    },
+    {
+      "filename" : "brownSLEEP.sticker"
+    },
+    {
+      "filename" : "brownSLIME.sticker"
+    },
+    {
+      "filename" : "brownSPOOKY.sticker"
+    },
+    {
+      "filename" : "brownTINA.sticker"
+    },
+    {
+      "filename" : "brownTRAIN.sticker"
+    },
+    {
+      "filename" : "brownTROPHY.sticker"
+    },
+    {
+      "filename" : "brownWEEB.sticker"
+    },
+    {
+      "filename" : "brownWHOOPS.sticker"
+    },
+    {
+      "filename" : "brownWUT.sticker"
+    },
+    {
+      "filename" : "brownYAY.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "regular"
+    "grid-size" : "small"
   }
 }
